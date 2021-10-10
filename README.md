@@ -1,7 +1,7 @@
-# Tugas 10 - Problem 1
+# Tugas 10 - Problem 2
 
 ## Description
-Membuat lingkaran di tengah layar
+Membuat lingkaran bergerak dengan suatu kecepatan konstan sehingga keluar dari layar
 
 ## Made By
 Nama      : Muhammad Dzaki Razaan Faza
