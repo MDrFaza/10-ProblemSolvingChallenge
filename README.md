@@ -1,7 +1,7 @@
-# Tugas 10 - Problem 2
+# Tugas 10 - Problem 3
 
 ## Description
-Membuat lingkaran bergerak dengan suatu kecepatan konstan sehingga keluar dari layar
+Buatlah sebuah kotak yang lebih besar daripada lingkaran dan buatlah lingkaran yang sudah diberi kecepatan di nomor 2 tersebut memantul terhadap kotak
 
 ## Made By
 Nama      : Muhammad Dzaki Razaan Faza
