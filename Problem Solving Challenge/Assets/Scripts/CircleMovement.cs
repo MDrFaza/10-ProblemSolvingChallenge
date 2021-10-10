@@ -18,30 +18,9 @@ public class CircleMovement : MonoBehaviour
 
     void Update()
     {
-        Vector2 velocity = rigidBody2D.velocity;
- 
-        if (Input.GetKey("up"))
-        {
-            velocity.y = speed;
-        }
-        else if (Input.GetKey("down"))
-        {
-            velocity.y = -speed;
-        }
-        else if(Input.GetKey("right"))
-        {
-            velocity.x = speed;
-        }
-        else if(Input.GetKey("left"))
-        {
-            velocity.x = -speed;
-        }
-        else
-        {
-            velocity.y = 0.0f;
-            velocity.x = 0.0f;
-        }
-
-        rigidBody2D.velocity = velocity;
+        Vector2 mousePos =  Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 pos = transform.position;
+        Vector2 direction = (mousePos - pos);
+        rigidBody2D.velocity = speed * direction.normalized;
     }
 }
