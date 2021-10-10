@@ -8,7 +8,8 @@ public class CircleMovement : MonoBehaviour
     private Rigidbody2D rigidBody2D;
  
     // Besarnya gaya awal yang diberikan untuk mendorong bola
-    public float initialForce;
+    public float initialForceX;
+    public float initialForceY;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,6 @@ public class CircleMovement : MonoBehaviour
 
     void PushBall()
     {
-        rigidBody2D.AddForce(new Vector2(initialForce, initialForce));
+        rigidBody2D.AddForce(new Vector2(initialForceX, initialForceY));
     }
 }
