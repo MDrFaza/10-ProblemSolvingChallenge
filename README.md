@@ -1,7 +1,7 @@
-# Tugas 10 - Problem 3
+# Tugas 10 - Problem 4
 
 ## Description
-Buatlah sebuah kotak yang lebih besar daripada lingkaran dan buatlah lingkaran yang sudah diberi kecepatan di nomor 2 tersebut memantul terhadap kotak
+Modifikasi dari nomor 2, buatlah lingkaran bergerak dengan input atas bawah kiri kanan. 
 
 ## Made By
 Nama      : Muhammad Dzaki Razaan Faza
