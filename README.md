@@ -1,7 +1,7 @@
-# Tugas 10 - Problem 4
+# Tugas 10 - Problem 5
 
 ## Description
-Modifikasi dari nomor 2, buatlah lingkaran bergerak dengan input atas bawah kiri kanan. 
+Variasi dari nomor 4, buatlah lingkaran tersebut dengan kecepatan tertentu mengikuti kursor mouse
 
 ## Made By
 Nama      : Muhammad Dzaki Razaan Faza
